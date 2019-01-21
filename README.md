@@ -13,7 +13,7 @@ Automação dos cenarios conforme User Stories e regras de negocio.
 
 <h2>Anotações</h2>
 1- Utilizei o Trello para autogerenciamentos da automação.</br>
-2- Na validação de campos, tentei utilizar table.hashes e não consegui rodar, tentei criar uma função naclasse e tambem não funcionou, por isso a validação foi feita no steps.rb.</br>
+2- Na validação de campos, tentei utilizar table.hashes e não consegui rodar, tentei criar uma função na classe e tambem não funcionou, por isso a validação foi feita no steps.rb.</br>
 3- Na automação, inclui a possibilidade de testar no Chrome e no Firefox, só efetuar a troca no cucumber.yaml</br>
 4- Na automação, inclui screenshots para os cenarios que passam corretamente e para os que falham.</br>
 5- Na automação, inclui a possibilidade de usar mais de um ambiente de teste, nesse caso só criei o "homol", porem incluir prod se torna simples, a alteração pode ser feita no cucumber.yaml</br>
