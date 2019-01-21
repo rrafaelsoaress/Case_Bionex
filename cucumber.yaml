@@ -1,0 +1,7 @@
+default: --no-source --color -p bdd -p prod -p html -p chrome -p json
+bdd: --format pretty
+prod: ENV_TYPE=prod
+chrome: BROWSER=chrome
+firefox: BROWSER=firefox
+html: --format html --out=log/reports/testebio.html
+json: --format json --out=log/reports/testebio.json
