@@ -1,0 +1,116 @@
+[
+  {
+    "uri": "features/specs/login.feature",
+    "id": "efetuar-login",
+    "keyword": "Funcionalidade",
+    "name": "Efetuar login",
+    "description": "",
+    "line": 4,
+    "tags": [
+      {
+        "name": "@login",
+        "line": 3
+      }
+    ],
+    "comments": [
+      {
+        "value": "#utf-8",
+        "line": 2
+      }
+    ],
+    "elements": [
+      {
+        "id": "efetuar-login;efetuar-login-corretamente",
+        "keyword": "Cenario",
+        "name": "Efetuar login corretamente",
+        "description": "",
+        "line": 6,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@login",
+            "line": 3
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.0.3/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 22564
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.0.3/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 17641
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11487
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que eu acesse o sistema",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/login_steps.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12124846359
+            }
+          },
+          {
+            "keyword": "Quando ",
+            "name": "faço login",
+            "line": 8,
+            "match": {
+              "location": "features/step_definitions/login_steps.rb:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2217693538
+            }
+          },
+          {
+            "keyword": "Então ",
+            "name": "sou direcionado para a home do site com a mensagem \"Autenticado com sucesso.\"",
+            "line": 9,
+            "match": {
+              "location": "features/step_definitions/login_steps.rb:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 112294975
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "capybara-3.0.3/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 99821538
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
