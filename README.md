@@ -18,4 +18,8 @@ Automação dos cenarios conforme User Stories e regras de negocio.
 4- Na automação, inclui screenshots para os cenarios que passam corretamente e para os que falham.</br>
 5- Na automação, inclui a possibilidade de usar mais de um ambiente de teste, nesse caso só criei o "homol", porem incluir prod se torna simples, a alteração pode ser feita no cucumber.yaml</br>
 6- Na automação, inclui 2 tipos de reports, um em HTML e outro em Json.</br>
-<h3></h3>
+
+<h2>Observações</h2>
+1- Alguns botões estão com divergência de idiomas, deve haver uma padronização.</br>
+2- Precisa ser definido se o campo código é alfanumerico.</br>
+3- O campo preço poderia já trazer uma mascara de preenchimento, assim facilita para o usuario.</br>
