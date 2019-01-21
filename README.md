@@ -21,5 +21,5 @@ Automação dos cenarios conforme User Stories e regras de negocio.
 
 <h2>Observações</h2>
 1- Alguns botões estão com divergência de idiomas, deve haver uma padronização.</br>
-2- Precisa ser definido se o campo código é alfanumerico.</br>
-3- O campo preço poderia já trazer uma mascara de preenchimento, assim facilita para o usuario.</br>
+2- Precisa ser definido se o campo código é alfanumérico.</br>
+3- O campo preço poderia já trazer uma máscara de preenchimento, assim facilita para o usuário.</br>
