@@ -1,5 +1,6 @@
-default: --no-source --color -p bdd -p prod -p html -p chrome -p json
+default: --no-source --color -p bdd -p homol -p html -p chrome -p json
 bdd: --format pretty
+homol: ENV_TYPE=homol 
 prod: ENV_TYPE=prod
 chrome: BROWSER=chrome
 firefox: BROWSER=firefox

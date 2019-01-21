@@ -10,7 +10,6 @@ require 'site_prism'
 World(Capybara::DSL)
 World(Capybara::RSpecMatchers)
 
-$sites = YAML.load_file('./features/support/prod.yaml')['site']
 
 Capybara.configure do |config|
     config.default_driver = :selenium
@@ -18,7 +17,9 @@ Capybara.configure do |config|
 end
 
 BROWSER = ENV['BROWSER']
-# ENV_TYPE = ENV['ENV_TYPE']
+ENV_TYPE = ENV['ENV_TYPE']
+
+$sites = YAML.load_file("./features/support/#{ENV_TYPE}.yaml")['site']
 
 Capybara.register_driver :selenium do |app|
     if BROWSER.eql?('chrome')
