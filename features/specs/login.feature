@@ -1,6 +1,6 @@
 #language: pt
 #utf-8
-@login
+@login @evidencia
 Funcionalidade: Efetuar login
 
     Cenario: Efetuar login corretamente
